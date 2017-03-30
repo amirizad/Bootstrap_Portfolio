@@ -1,0 +1,69 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.navbar-header a, a:hover, a:active, a:focus{
+  background-color: #000066 !important;
+  color: #fff !important;
+}
+.active{
+  background-color: transparent !important;
+  color: #000066 !important;
+  font-weight: bold;
+}
+.my-bgcolor{
+  background-color: #000066;
+  color: #fff;
+}
+.avatar{
+  margin: 0 20px 10px 0;
+}
+.bio{
+  font: bold 20px/42px cursive; 
+}
+.icons a{
+  margin: 0 1%;
+  width: 25%;
+}
+.icons a>img{
+    display: inline-block !important;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+}
+.portfolioimg{
+  position: relative;
+  display: inline-block;
+  width: 270px;
+  height: 200px;
+  margin: 30px 20px;
+  border:1px solid #ddd;
+}
+.portfolioimg img{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.portfolioimg img:hover{
+  opacity: 1;
+}
+.portfolioimg span{
+  position: absolute; 
+  top: 140px; 
+  left: 0; 
+  width: 270px;
+  font: bold 24px/45px cursive; 
+  background: rgba(0, 0, 102, 0.7);
+}
+.container .text-muted {
+  margin: 15px 0;
+}
